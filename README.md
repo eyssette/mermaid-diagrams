@@ -4,60 +4,8 @@ Mermaid diagrams based on two templates
 
 ## Template-LR
 
-```mermaid
-%%{init{"theme":"base","themeCSS":"* {line-height:1.25em!important; font-size:20px; text-align:left!important;} g[id*=\"A\"] span {font-size:1.01em; color:white; display:block; text-align:center!important} g[id*=\"A\"] rect {fill:black}  g[id*=\"V\"] * {} g[id*=\"B\"] span {font-size:0.9em; color:white; display:block; text-align:center!important} g[id*=\"B\"] rect {fill:#6f0000; stroke:transparent} g[id*=\"C\"] span {font-size:0.75em; display:block;} g[id*=\"D\"] span, g[id*=\"E\"] span {font-size:0.7em; display:block;} g[id*=\"D\"] rect, g[id*=\"E\"] rect {stroke:transparent!important}.edge-thickness-normal{stroke-width:1px; stroke:#999;} .edge-thickness-thick{stroke-width:1px!important} .edge-pattern-dotted{stroke:transparent}","themeVariables":{ "secondaryColor":"transparent","primaryColor":"transparent","primaryBorderColor":"black"},"flowchart":{"htmlLabels":true,"padding":20,"rankSpacing":50,"nodeSpacing":20}} }%%
-flowchart LR
-A1(["Titre <br> niveau 1"])
-
-B1("Titre <br>niveau 2")
-B2("Titre <br>niveau 2")
-B3("Titre <br>niveau 2")
-
-C1["Titre <br>niveau 3"]
-C2["Titre <br>niveau 3"]
-C3["Titre <br>niveau 3"]
-
-D1["Titre <br>niveau 4"]
-D2["Titre <br>niveau 4"]
-D3["Titre <br>niveau 4"]
-
-A1 === B1 & B2 & B3
-
-B1 --- C1
-B2 --- C2
-B3 --- C3
-
-C1 --- D1
-C2 --- D2
-C3 --- D3
-```
+[![](https://mermaid.ink/img/pako:eNqtVEuPmzAQ_iuuV6m2qxAFaFqFNJWWZG_bS1PtJe7BwZNgxdjIOM1uEf-9NqQLaR7aQznAMN988_J4SpwoBjjCvV7JJTclwSaFDAiOCF7Rwgr9g2q2WNTaO1QKLsFLgW9SE_mDYATZO57lShsqzQStlTRewX9DFAzz5wky8Gw8KvhGRgLWpmNaoc2Ss7spIQTfu9dPVORUorJ14Q-GPmQTlCihdLRPuYEJYrzIBX2JVkIl26MACUgDug1xJoKGxNgIXAjLp8m2Qh2bp8bG1thlxudzGw7G_ym1-CS1m0_roX0mqDBabSEymkobX8MxcXYps88jl9pxNl3ivCX2O-qHi_7e5M4VcMZdU9dpJZ1mDIBtwDMpT7YSisKTSmdUHDjenjOTRr6bpoOXm_F4bDP4l1ZLJ6xu0xtGTo09DOkxZb_sTGpVO_hPVHO6ElDY8S8RwQUkSjKqX2bu4Os70SHWvFzz7C0GsdIMdGtWDyTBlbVYC7VPUqqNi0pwajLxSFcgXBZG78A5oYxxubGKYGh_bYjtIqdJoxo5lbSXu1UFw6pCVa9H5Ktz9PidyHv_dknwD240oC8r_RVJ_gvoDvn27D4QSWTs33bxAxwQbNE4uIKFlzEiZ_7yDBraoBYLrmDhZYzI-VmvH2t0HlzBwsuYaxGaTqco9tF7FAfuFTaNQZ7noZnv-tCIgSu7EcOmyvpn7ruiGjFwNTRiiPs4AzvqnNklXBKJULuB0d8VTGRl7XY5owYeGDdK42hNRQF9THdGLV5kchiKg9Gc042m2asV1KRvzaqvN371B84zBfs)](https://mermaid.live/edit#pako:eNqtVEuPmzAQ_iuuV6m2qxAFaFqFNJWWZG_bS1PtJe7BwZNgxdjIOM1uEf-9NqQLaR7aQznAMN988_J4SpwoBjjCvV7JJTclwSaFDAiOCF7Rwgr9g2q2WNTaO1QKLsFLgW9SE_mDYATZO57lShsqzQStlTRewX9DFAzz5wky8Gw8KvhGRgLWpmNaoc2Ss7spIQTfu9dPVORUorJ14Q-GPmQTlCihdLRPuYEJYrzIBX2JVkIl26MACUgDug1xJoKGxNgIXAjLp8m2Qh2bp8bG1thlxudzGw7G_ym1-CS1m0_roX0mqDBabSEymkobX8MxcXYps88jl9pxNl3ivCX2O-qHi_7e5M4VcMZdU9dpJZ1mDIBtwDMpT7YSisKTSmdUHDjenjOTRr6bpoOXm_F4bDP4l1ZLJ6xu0xtGTo09DOkxZb_sTGpVO_hPVHO6ElDY8S8RwQUkSjKqX2bu4Os70SHWvFzz7C0GsdIMdGtWDyTBlbVYC7VPUqqNi0pwajLxSFcgXBZG78A5oYxxubGKYGh_bYjtIqdJoxo5lbSXu1UFw6pCVa9H5Ktz9PidyHv_dknwD240oC8r_RVJ_gvoDvn27D4QSWTs33bxAxwQbNE4uIKFlzEiZ_7yDBraoBYLrmDhZYzI-VmvH2t0HlzBwsuYaxGaTqco9tF7FAfuFTaNQZ7noZnv-tCIgSu7EcOmyvpn7ruiGjFwNTRiiPs4AzvqnNklXBKJULuB0d8VTGRl7XY5owYeGDdK42hNRQF9THdGLV5kchiKg9Gc042m2asV1KRvzaqvN371B84zBfs)
 
 ## Template-TD
 
-```mermaid
-%%{init{"theme":"base","themeCSS":"* {line-height:1.25em!important; font-size:20px; text-align:left!important;} g[id*=\"A\"] span {font-size:1.01em; color:white; display:block; text-align:center!important} g[id*=\"A\"] rect {fill:black}  g[id*=\"V\"] * {} g[id*=\"B\"] span {font-size:0.9em; color:white; display:block; text-align:center!important} g[id*=\"B\"] rect, g[id*=\"B\"] circle {fill:#6f0000; stroke:transparent} g[id*=\"C\"] span {font-size:0.75em; display:block;} g[id*=\"D\"] span, g[id*=\"E\"] span {font-size:0.7em; display:block;} g[id*=\"D\"] rect, g[id*=\"E\"] rect {stroke:transparent!important}.edge-thickness-normal{stroke-width:1px; stroke:#999;} .edge-thickness-thick{stroke-width:1px!important} .edge-pattern-dotted{stroke:transparent}","themeVariables":{"secondaryColor":"transparent","primaryColor":"transparent","primaryBorderColor":"black"},"flowchart":{"htmlLabels":true,"padding":30,"rankSpacing":30,"nodeSpacing":70}} }%%
-flowchart TD
-A1(["Titre <br> niveau 1"])
-
-B1(["Titre <br>niveau 2"])
-B2(["Titre <br>niveau 2"])
-B3(["Titre <br>niveau 2"])
-
-C1["Titre <br>niveau 3"]
-C2["Titre <br>niveau 3"]
-C3["Titre <br>niveau 3"]
-
-D1["Titre <br>niveau 4"]
-D2["Titre <br>niveau 4"]
-D3["Titre <br>niveau 4"]
-
-A1 === B1 & B2 & B3
-
-B1 --- C1
-B2 --- C2
-B3 --- C3
-
-C1 --- D1
-C2 --- D2
-C3 --- D3
-```
+[![](https://mermaid.ink/img/pako:eNqtVU2P2jAQ_SuuV1TtiiCSdLsilEob2Ft7YrWXdQ_GHoiFY0eOKUtR_nudj27Cp_ZQDmEyb97MG3vs7DHTHHCEe729UMLuCbYJpEBwRPCC5s7oN67pfF55b9FeCgVeAmKV2MgfBHeQfhBppo2lyo7RUivr5eIPRMEwex0jC6_Wo1KsVCRhaTuhBVq9CH47IYTgh_LxC-UZVWjfpvAHQx_SMWJaahNtE2FhjLjIM0l30UJqtj4owEBZMG2JMxUMMOsqCCkdn7J1gToxz3WM67HLjM9rGw5G_0la3Errn7qZMExCo_nm63LofmOUW6PXEFlDlRNm4DDj9JLk-7tS86HMLnHWErtSHi_me1e6484eu3tx2klnlQbAV-DZRLC1gjz3lDYplQ3H2wpuk8gvx6zJcjMajZyCY1plnbC6u1EzMmrdLimPa_fPz0gr2hPxTI2gCwm5Oxfu4OTAtOLU7KblQFRnpcOraJkR6XsCYm04mDasGlSCCxexlHrLEmpsXTSxqfxBFyBLEdZsoExCORdq5Rzh0L26Eut5RlnHpdyhb133w6JARa9H1Fty9DQj6sH_9ELwk7AG0LeF-Y6U-A10g3y3dZ-JIio-CmjwoMbj4CoaXkOJmvrn4NDBDguuYOFljKjZ2axfKnQWXMHCy1i5UGgymaDYRx9RHJSPsF4e5HkemvrlWtRmUDZem2HdZfUy88umajMoe6jNEPdxCm7eBXdX9J4ohNr7Gf27oIkqXNwm49TCIxdWGxwtqcyhj-nG6vlOsWY0mqCZoCtD07coqEg_6w9B9T0o_gLEKA_g)](https://mermaid.live/edit#pako:eNqtVU2P2jAQ_SuuV1TtiiCSdLsilEob2Ft7YrWXdQ_GHoiFY0eOKUtR_nudj27Cp_ZQDmEyb97MG3vs7DHTHHCEe729UMLuCbYJpEBwRPCC5s7oN67pfF55b9FeCgVeAmKV2MgfBHeQfhBppo2lyo7RUivr5eIPRMEwex0jC6_Wo1KsVCRhaTuhBVq9CH47IYTgh_LxC-UZVWjfpvAHQx_SMWJaahNtE2FhjLjIM0l30UJqtj4owEBZMG2JMxUMMOsqCCkdn7J1gToxz3WM67HLjM9rGw5G_0la3Errn7qZMExCo_nm63LofmOUW6PXEFlDlRNm4DDj9JLk-7tS86HMLnHWErtSHi_me1e6484eu3tx2klnlQbAV-DZRLC1gjz3lDYplQ3H2wpuk8gvx6zJcjMajZyCY1plnbC6u1EzMmrdLimPa_fPz0gr2hPxTI2gCwm5Oxfu4OTAtOLU7KblQFRnpcOraJkR6XsCYm04mDasGlSCCxexlHrLEmpsXTSxqfxBFyBLEdZsoExCORdq5Rzh0L26Eut5RlnHpdyhb133w6JARa9H1Fty9DQj6sH_9ELwk7AG0LeF-Y6U-A10g3y3dZ-JIio-CmjwoMbj4CoaXkOJmvrn4NDBDguuYOFljKjZ2axfKnQWXMHCy1i5UGgymaDYRx9RHJSPsF4e5HkemvrlWtRmUDZem2HdZfUy88umajMoe6jNEPdxCm7eBXdX9J4ohNr7Gf27oIkqXNwm49TCIxdWGxwtqcyhj-nG6vlOsWY0mqCZoCtD07coqEg_6w9B9T0o_gLEKA_g)
