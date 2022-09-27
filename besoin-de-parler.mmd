@@ -1,0 +1,17 @@
+%%{init{"theme":"base","themeCSS":"* {line-height:1.25em!important; font-size:20px; text-align:left!important;} g[id*=\"A\"] span {font-size:1.01em; color:white; display:block; text-align:center!important} g[id*=\"A\"] rect {fill:black}  g[id*=\"V\"] * {} g[id*=\"B\"] span {font-size:0.9em; color:white; display:block; text-align:center!important} g[id*=\"B\"] rect {fill:#6f0000; stroke:transparent} g[id*=\"C\"] span {font-size:0.75em; display:block;} .edge-thickness-normal{stroke-width:1px; stroke:#999;} .edge-thickness-thick{stroke-width:1px!important} .edge-pattern-dotted{stroke:transparent}","themeVariables":{"secondaryColor":"transparent","primaryColor":"transparent","primaryBorderColor":"black"},"flowchart":{"htmlLabels":true,"padding":20,"rankSpacing":50,"nodeSpacing":20}} }%%
+flowchart LR
+A1(["Nous avons <br>besoin de parler"])
+
+B1("Pour <br>penser")
+B2("Pour vivre <br>en société")
+B3("Pour <br>exister")
+
+C1["La parole permet l'expression<br> de la pensée et plus généralement<br> de notre intériorité"]
+C2["La parole permet la communication<br> avec les autres et elle est au fondement<br> des sociétés et des cultures"]
+C3["La parole est un besoin existentiel :<br> à travers la parole nous affirmons notre<br> existence en tant que personne et notre <br>désir de reconnaissance par les autres"]
+
+A1 === B1 & B2 & B3
+
+B1 --- C1
+B2 --- C2
+B3 --- C3
