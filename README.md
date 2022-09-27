@@ -61,9 +61,3 @@ C1 --- D1
 C2 --- D2
 C3 --- D3
 ```
-
-<style>
-svg {
-background-color: white;
-}
-</style>
