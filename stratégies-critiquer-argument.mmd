@@ -1,0 +1,17 @@
+%%{init{"theme":"base","themeCSS":"* {line-height:1.25em!important; font-size:20px; text-align:left!important;} g[id*=\"A\"] span {font-size:1.01em; color:white; display:block; text-align:center!important} g[id*=\"A\"] rect {fill:black}  g[id*=\"V\"] * {} g[id*=\"B\"] span {font-size:0.9em; color:white; display:block; text-align:center!important} g[id*=\"B\"] rect {fill:#6f0000; stroke:transparent} g[id*=\"C\"] rect {fill:white; stroke:grey} g[id*=\"C\"] span {font-size:0.75em; display:block; text-align:center!important} g[id*=\"D\"] span, g[id*=\"E\"] span {font-size:0.7em; display:block;} g[id*=\"D\"] rect, g[id*=\"E\"] rect {stroke:transparent!important}.edge-thickness-normal{stroke-width:1px; stroke:#999;} .edge-thickness-thick{stroke-width:1px!important;} .edge-pattern-dotted{stroke:transparent} i {font-size:1em}","themeVariables":{"secondaryColor":"white","primaryColor":"hsl(60,9%,97%)","primaryBorderColor":"black"},"flowchart":{"htmlLabels":true,"padding":20,"rankSpacing":50,"nodeSpacing":20}} }%%
+flowchart LR
+A1(["Trois stratégies <br>pour critiquer<br>un argument"])
+
+B1("Stratégie<br>“<i>Ah bon ?</i>”")
+B2("Stratégie<br>“<i>Et alors ?</i>”")
+B3("Stratégie<br>“<i>Euh... Quel est<br>l'argument ?</i>”")
+
+C1["On remet en cause la vérité<br> d'une des prémisses <br>ou de la conclusion"]
+C2["On montre que les prémisses,<br> même si elles sont vraies, <br>ne permettent pas de <br>justifier la conclusion."]
+C3["On montre qu'il n'y a pas d'argument<br> car il y a une prémisse qui n'a <br>pas de sens ou bien qui ne fait <br>que répéter la conclusion"]
+
+A1 === B1 & B2 & B3
+
+B1 --- C1
+B2 --- C2
+B3 --- C3
