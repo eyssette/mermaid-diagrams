@@ -1,0 +1,69 @@
+%%{init{"theme":"base","themeCSS":"* {line-height:1.25em!important; font-size:20px; text-align:left!important;} g[id*=\"A\"] span {font-size:1.01em; color:white; display:block; text-align:center!important} g[id*=\"A\"] rect {fill:black}  g[id*=\"V\"] * {} g[id*=\"B\"] span {font-size:0.9em; color:white; display:block; text-align:center!important} g[id*=\"B\"] rect {fill:#6f0000; stroke:transparent} g[id*=\"C\"] rect {fill:white; stroke:grey} g[id*=\"C\"] span {font-size:0.75em; display:block; text-align:center!important} g[id*=\"D\"] span, g[id*=\"E\"] span {font-size:0.7em; display:block;} g[id*=\"D\"] rect, g[id*=\"E\"] rect {stroke:transparent!important}.edge-thickness-normal{stroke-width:1px; stroke:#999;} .edge-thickness-thick{stroke-width:1px!important;} .edge-pattern-dotted{stroke:transparent}","themeVariables":{"secondaryColor":"white","primaryColor":"hsl(60,9%,97%)","primaryBorderColor":"black"},"flowchart":{"htmlLabels":true,"padding":30,"rankSpacing":30,"nodeSpacing":60}} }%%
+flowchart TD
+A1(["L'empathie ne nous
+conduit pas toujours
+à agir moralement"])
+
+B1(["… pas
+toujours …"])
+B2(["… à agir …"])
+B3(["… moralement"])
+
+C1["L'empathie est un
+sentiment variable,
+inconstant et dépendant
+des circonstances"]
+C2["L'empathie
+peut conduire
+à l'inaction"]
+C3["L'empathie
+peut conduire à
+agir de manière
+paternaliste"]
+C4["L'empathie peut
+conduire à une
+conception partielle et
+partiale d'un problème"]
+
+
+D1["&rArr; L'empathie ne
+peut pas constituer
+un fondement stable
+de la morale"]
+D2["On peut ne pas agir, soit par
+sentiment d'impuissance, soit
+par stratégie d'évitement de
+ce qui nous fait souffrir, soit
+parce qu'on prend simplement
+plaisir à s'émouvoir …"]
+D3["L'empathie peut nous
+conduire à vouloir aider
+une personne, sans s'assurer
+de son consentement et sans
+prendre en compte ses
+préférences et ses
+véritables besoins"]
+D4["L'empathie est soumise à des biais :
+&mdash; biais de proximité spatiale
+et temporelle : focalisation sur
+ici et maintenant
+&mdash; biais de ressemblance :
+focalisation sur les membres
+de notre groupe (famille,
+classe sociale, nation …)
+&rArr; Pas de prise en compte des
+conséquences globales ou sur le long
+terme, pas de prise en compte de
+tous les individus concernés"]
+
+
+A1 === B1 & B2 & B3
+
+B1 --- C1
+B2 --- C2
+B3 --- C3 & C4
+
+C1 --- D1
+C2 --- D2
+C3 --- D3
+C4 --- D4
